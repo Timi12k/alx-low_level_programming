@@ -7,7 +7,8 @@ void print_fibonacci_numbers(int n)
     if (n >= 1)
         printf("%lu", prev);
 
-    for (int i = 1; i < n; i++)
+    int i;
+    for (i = 1; i < n; i++)
     {
         printf(", %lu", current);
         next = prev + current;
