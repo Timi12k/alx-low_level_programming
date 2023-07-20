@@ -4,6 +4,9 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-int largest_number(int a __attribute__((unused)), int b __attribute__((unused)), int c __attribute__((unused)));
+int largest_number(int a, int b, int c);
+
+/* Function prototype for print_remaining_days */
+void print_remaining_days(int month, int day, int year);
 
 #endif /* MAIN_H */
