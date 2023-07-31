@@ -10,5 +10,11 @@ char *_strstr(char *haystack, char *needle);
 void print_chessboard(char (*a)[8]);
 void print_diagsums(int *a, int size);
 
+#include <stdio.h>  /* Include any other necessary standard headers here */
+
+int _putchar(char c);  /* Function prototype for _putchar */
+
+/* Add any other function prototypes or declarations needed here */
+
 #endif /* MAIN_H */
 
