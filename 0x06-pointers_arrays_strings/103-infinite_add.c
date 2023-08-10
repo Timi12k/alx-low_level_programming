@@ -76,7 +76,6 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 }
 
 /**
- * main - Entry point of the program.
  *
  * Return: Always 0 (Success).
  */
