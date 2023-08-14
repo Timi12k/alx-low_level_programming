@@ -1,6 +1,9 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef FUNCTION_LIKE_MACRO_H
+#define FUNCTION_LIKE_MACRO_H
 
-#define ABS(x) ((x < 0) ? (-x) : (x))
+/* Prevent double inclusion */
 
-#endif
+#define ABS(x) ((x < 0) ? -(x) : (x))
+
+#endif /* FUNCTION_LIKE_MACRO_H */
+
